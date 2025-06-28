@@ -21,7 +21,7 @@ export default function About() {
 <div className="container mx-auto px-6 py-24"> {/* increased from py-12 to py-24 */}
   <h2 className="text-3xl font-bold text-center text-blue-900">Who We Are</h2>
   <p className="text-center text-gray-700 mt-3 max-w-2xl mx-auto">
-    Sahayak is more than just a fundraising platform—it's a movement. Built to serve individuals, NGOs,
+    Sahayak is more than just a fundraising platform—it&apos;s a movement. Built to serve individuals, NGOs,
           and social impact initiatives, we are committed to making crowdfunding simpler, safer, and more
           human. Whether someone is facing a personal crisis, running a charity, or simply trying to bring
           their idea to life, Sahayak offers the tools and support to help them succeed. We believe in the
@@ -38,7 +38,7 @@ export default function About() {
               <h3 className="text-xl font-semibold">Start a Campaign</h3>
               <p className="text-gray-700 mt-3 text-base leading-relaxed">
                 Setting up your fundraiser is quick and intuitive. Share your story, upload images,
-                and set your goal. Within minutes, you're live and ready to receive support from your
+                and set your goal. Within minutes, you&apos;re live and ready to receive support from your
                 community and beyond.
               </p>
             </div>
@@ -53,7 +53,7 @@ export default function About() {
             <div className="max-w-sm p-6 bg-gray-200 rounded-lg shadow-md text-center">
               <h3 className="text-xl font-semibold">Make an Impact</h3>
               <p className="text-gray-700 mt-3 text-base leading-relaxed">
-                Every rupee raised brings you closer to your goal. Whether it's a medical emergency,
+                Every rupee raised brings you closer to your goal. Whether it&apos;s a medical emergency,
                 educational dream, or community project, the funds raised help you drive real and
                 lasting change.
               </p>
@@ -70,7 +70,7 @@ export default function About() {
           financial hardships. From life-saving surgeries to grassroots education initiatives, our
           platform has powered stories of hope, compassion, and resilience. Every campaign reflects
           the trust of our community and the deep connections we’ve built with our users. Together,
-          we’re building a future where help is never out of reach.
+          we&apos;re building a future where help is never out of reach.
         </p>
       </div>
 
@@ -78,7 +78,7 @@ export default function About() {
       <div className="bg-blue-900 text-white py-16 text-center px-4">
         <h2 className="text-4xl font-bold">Get Involved</h2>
         <p className="mt-6 max-w-3xl mx-auto text-lg leading-relaxed">
-          Whether you're ready to start your own campaign or simply want to support someone else's
+          Whether you&apos;re ready to start your own campaign or simply want to support someone else&apos;s
           journey, your involvement matters. Share stories, contribute to causes, and become a part
           of the Sahayak family. Together, we can ignite positive change and create a more
           compassionate society.
