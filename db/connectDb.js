@@ -1,4 +1,3 @@
-// lib/connectDB.js
 import mongoose from 'mongoose';
 
 const MONGODB_URI = process.env.MONGODB_URI;
@@ -15,14 +14,17 @@ if (!cached) {
 
 const connectDB = async () => {
   if (cached.conn) {
+    // 🔁 Return cached connection if already connected
     return cached.conn;
   }
 
   if (!cached.promise) {
     console.log(`🔌 Connecting to MongoDB: ${MONGODB_URI}`);
+
     cached.promise = mongoose.connect(MONGODB_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
+      dbName: "sahayak", // ✅ specify your DB name here if needed
     });
   }
 
