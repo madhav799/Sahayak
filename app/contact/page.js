@@ -14,7 +14,7 @@ const ContactUs = () => {
             </div>
             <br />
             <div className="text-center font-bold text-white">
-             "Your small contribution can make a big difference — be the reason someone believes in hope again."
+           &quot;Your small contribution can make a big difference — be the reason someone believes in hope again.&quot;
             </div>
             <p className="p-4 text-gray-200 text-md text-center font-sans">
               If you have any questions, feedback, or need support, feel free to
