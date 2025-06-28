@@ -130,7 +130,7 @@ export default function Projects() {
       <section className="bg-blue-900 text-white py-24 text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold">Want to Support a Cause?</h2>
         <p className="mt-6 text-xl max-w-2xl mx-auto">
-          Start a campaign, support someone’s dream, or simply donate. You can be someone's Sahayak today.
+          Start a campaign, support someone&apos;s dream, or simply donate. You can be someone's Sahayak today.
         </p>
         <button className="mt-10 px-10 py-4 bg-green-500 hover:bg-green-600 text-white font-semibold text-lg rounded-lg">
           Start a Campaign
